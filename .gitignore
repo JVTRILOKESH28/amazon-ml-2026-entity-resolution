@@ -1,0 +1,27 @@
+# Dataset
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models
+models/*
+!models/.gitkeep
+
+# Generated outputs
+output/
+
+# Experiment artifacts
+experiments/*.csv
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
